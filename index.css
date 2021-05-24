@@ -1,0 +1,15 @@
+/* 畫面預設的滑鼠樣式，要設定高寬的vh才抓得到 */
+body{
+    margin: 0;
+    height: 100vh;
+    /* cursor: cell; 設定滑鼠的樣式 */
+    background: rgb(27,27,27);
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
